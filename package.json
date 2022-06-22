@@ -2,7 +2,7 @@
   "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/feurstern/to-do-list",
+  "homepage": "https://feurstern.github.io/to-do-list",
   "dependencies": {
     "material-ui": "^0.19.4",
     "prop-types": "^15.5.8",
