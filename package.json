@@ -2,7 +2,9 @@
   "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/feurstern/to-do-list",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "material-ui": "^0.19.4",
     "prop-types": "^15.5.8",
     "react": "^15.6.1",
@@ -16,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
